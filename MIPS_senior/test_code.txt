@@ -1,0 +1,8 @@
+Judgment:       beq $t1,$t0,Initialization
+                j Exit
+Initialization: addi $t0,$t0,8
+                addi $t1,$t1,2
+                sll $t0,$t0,1
+	            bne $t1,$t0,Judgment
+                jal Initialization
+Exit:           addi $s0,$s0,5
