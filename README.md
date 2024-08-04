@@ -1,6 +1,6 @@
 # 2023_MIPS Decoder
-使用C++及Python開發MIPS Decoder
-Accroding to MIPS ISA
+使用C++及Python開發MIPS Decoder accroding to MIPS ISA
+
 ## MIPS_junior: 基本功能
 使用C++開發，不含UI顯示
 <p>Terminal顯示如下:</p>
